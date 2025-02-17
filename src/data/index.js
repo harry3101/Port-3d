@@ -10,8 +10,8 @@ export const navLinks = [
     title: "Hero",
   },
   {
-    id: "portfolio",
-    title: "Portfolio",
+    id: "project",
+    title: "Project",
   },
   {
     id: "experience",
@@ -25,64 +25,55 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "Web Developer",
+    company_name: "CodSoft",
+    date: "july(2024)-august(2024)",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "<strong>Developed and maintained</strong> responsive web applications, enhancing user experience and functionality.",
+      "<em>Designed visually appealing</em> and interactive web pages, improving <span style='color: white;'>UI/UX and engagement</span>.",
+      "<u>Collaborated with a team</u> to build and optimize web solutions, ensuring <span style='color: white;'>performance, scalability, and accessibility</span>.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "Frontend head",
+    company_name: "Horixon sirsa",
+    date: "2024-present",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "<strong>Led the frontend development</strong> of scalable web applications, ensuring high performance and user-friendly interfaces.",
+      "<em>Designed and optimized</em> modern UI/UX components, improving <span style='color: white;'>accessibility and responsiveness</span>.",
+      "<u>Collaborated with cross-functional teams</u> to implement innovative frontend solutions, enhancing <span style='color: white;'>efficiency and maintainability</span>.",
     ],
   },
+  
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: " AWS-job similuation",
+    company_name: "Forage",
+    date: "2024",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
-    ],
-  },
-  {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
-    details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+     "<strong>Deployed and managed</strong> cloud-based applications using AWS services, ensuring <span style='color: white;'>scalability and reliability</span>.",
+  "<em>Configured and optimized</em> AWS resources, improving <span style='color: white;'>performance and cost efficiency</span>.",
+  "<u>Implemented security best practices</u> for cloud infrastructure, enhancing <span style='color: white;'>data protection and compliance</span>.",
     ],
   },
 ];
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "LMS(Learning Management System",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
+      "A full-featured LMS built with Next.js, Redux Toolkit, and Clerk authentication, backed by AWS S3 for storage and DynamoDB with an Express.js backend. It enables seamless course creation, management, and enrollment, with a responsive UI and secure access controls. Designed 🎓💻",
     image: oscs,
   },
   {
-    name: "Dev Notes",
+    name: "Job Portal",
     description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
+      "A modern job portal built with MERN stack (MongoDB, Express, React, Node.js), featuring real-time job listings, user authentication, and application tracking. Employers can post jobs, while candidates can search, apply, and track applications seamlessly. Optimized for performance and a smooth user experience. 🔍💼.",
     image: devnotes,
   },
   {
-    name: "Visually Understanding Algorithms",
+    name: "Chat-Application",
     description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
+      "A real-time chat application built with MERN stack and Socket.io, enabling instant messaging, group chats, and media sharing. Features user authentication, online status indicators, and responsive UI for a seamless experience. Secure and scalable for smooth communication. 💬⚡.",
     image: algorithms,
   },
 ];

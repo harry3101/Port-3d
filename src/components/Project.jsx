@@ -50,11 +50,11 @@ const ProjectCard = ({
   );
 };
 
-const Portfolio = () => {
+const Project = () => {
   return (
     <div className='text-center md:text-left md:px-20 lg:px-40'>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionText}`}>Portfolio</h2>
+        <h2 className={`${styles.sectionText}`}>Project</h2>
       </motion.div>
 
       <div className='mt-10 md:mt-20 flex flex-col gap-10 md:gap-20'>
@@ -66,4 +66,4 @@ const Portfolio = () => {
   );
 };
 
-export default SectionWrapper(Portfolio, "portfolio");
+export default SectionWrapper(Project, "project");
